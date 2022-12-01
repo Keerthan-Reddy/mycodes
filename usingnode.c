@@ -23,5 +23,5 @@ printf("%d",newnode->data);
 
 void main(){
     creat();
-    display();
+    
 }
