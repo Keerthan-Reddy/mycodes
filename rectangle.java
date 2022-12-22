@@ -1,4 +1,4 @@
-import java.util.*;
+
 class rect{
     private double len,wed;
     public void setdata(double d1,double d2){
