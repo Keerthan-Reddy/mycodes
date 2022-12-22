@@ -5,6 +5,7 @@ public class amstrong {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number"); 
         int n = sc.nextInt();
+        sc.close();
         int s=0, r , m;
         m=n; 
         while(n > 0) {
