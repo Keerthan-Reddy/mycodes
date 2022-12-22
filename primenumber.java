@@ -7,6 +7,7 @@ System.out.println("Enter a number to start -m ");
 int m = sc.nextInt();
 System.out.println("Enter a number to end -n "); 
 int n = sc.nextInt();
+sc.close();
 int i,num;
 System.out.println("prime numbers from " + m + " to "+n+"are:");
 

@@ -8,6 +8,7 @@ public class gradedemo {
    int m2= sc.nextInt();
    double m3= sc.nextDouble();
    double m4= sc.nextDouble();
+   sc.close();
    double avg = (m1+m2+m3+m4)/4.0; 
    System.out.println("The average of student is " +avg);
    if(avg >= 70){
@@ -22,4 +23,5 @@ public class gradedemo {
    System.out.println("Fail");}
 
    }
+   
 }
